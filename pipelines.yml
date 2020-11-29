@@ -2,8 +2,8 @@ resources:
   - name: gociexampleGithubRepo
     type: GitRepo
     configuration:
-      gitProvider: jefferyfryGithub
-      path: jefferyfry/goci-example
+      gitProvider: zen1
+      path: aaragorn2/goci-example
   - name: jenkinsBuildInfo
     type: BuildInfo
     configuration:
