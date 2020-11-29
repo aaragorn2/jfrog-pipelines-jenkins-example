@@ -24,7 +24,7 @@ pipelines:
         type: Bash
         configuration:
           inputResources:
-            - name: zen_art
+            - name: jenkinsBuildInfo
         execution:
           onExecute:
             - echo 'Jenkins job triggered Pipelines'
@@ -85,7 +85,7 @@ pipelines:
           status: Released
           comment: Passed staging tests.
           inputResources:
-            - name: zen_art
+            - name: jenkinsBuildInfo
               trigger: false
           outputResources:
             - name: releaseBuildInfo
