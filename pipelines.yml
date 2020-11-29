@@ -3,7 +3,7 @@ resources:
     type: GitRepo
     configuration:
       gitProvider: zen1
-      path: aaragorn2/goci-example
+      path: aaragorn2/jfrog-pipelines-jenkins-example
   - name: jenkinsBuildInfo
     type: BuildInfo
     configuration:
