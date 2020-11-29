@@ -38,7 +38,7 @@ pipelines:
               trigger: false
           integrations:
             - name: zen_kube
-            //- name: gociexample
+
           releaseName: goci-example
           chartPath: chart/goci-example/
           flags: --debug
