@@ -14,7 +14,7 @@ resources:
   - name: releaseBuildInfo
     type: BuildInfo
     configuration:
-      sourceArtifactory: PartnershipArtifactory
+      sourceArtifactory: zenn_art
       buildName: goci-example/master
       buildNumber: 1
 pipelines:
